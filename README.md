@@ -15,6 +15,7 @@ There are some important notes:
 2. config.toml很重要，需要看看使用的themes是否包含了example，方便使用
 3. 在config.toml放好以后再创建内容(e.g. hugo new posts/demo.md)才会在content下出现可以显示的内容
 4. 用hugo server -D本地预览，预览地址：http://localhost:1313/ 
+5. **github pages在静态页面时只支持根目录或者/docs目录，需要使用hugo -d docs将文件导到/docs下在push，同时需要设置GitHub里的settings**
 
 ## to be achieved
 1. 如何放入多个themes，在不同themes切换，对content内容的显示会不会有影响
